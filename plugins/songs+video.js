@@ -49,7 +49,7 @@ const url = data.url
 }
 })
 
-//===============video+dl================
+//===============video+dl===================
 
 cmd({ 
     pattern: "video",
