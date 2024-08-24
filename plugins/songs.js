@@ -84,7 +84,6 @@ const url = data.url
   // send videoo message
   await conn.sendMeassage(from,{video: {url:downloadurl},mimetype:"video/mp4"},{quoted:mek})
   await conn.sendMeassage(from,{document: {url:downloadurl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"MADE BY MAHIYA BOY},{quoted:mek})
-
   
 }catch(e){
   console.log(e)
