@@ -1,4 +1,4 @@
-
+const {cmd , commands} = require('../command')
 cmd({ 
     pattern: "song",
     desc: "songs downloader.",
