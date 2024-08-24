@@ -1,2 +1,45 @@
-# Queen_Amanda
-QUEEN_AMANDA OFFICIAL MULTI DEVICE WHATSAPP BOT
+<html>
+<body
+  <center>
+  <h2>WELCOME QUEEN-AMANDA OFFICIAL WHATSAPP BOT</h2>
+</center>
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</html>
