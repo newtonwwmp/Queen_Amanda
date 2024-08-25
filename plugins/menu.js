@@ -22,7 +22,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
  }
 }
 
-let mademenu = ` 👋*HELLO ${pushname} WELCOME QUEEN AMANDA-MD*
+let madeMenu = ` 👋*HELLO ${pushname} WELCOME QUEEN AMANDA-MD*
 > ⚜️ *DOWNLOAD COMMANDS* 
 
 ${menu.download}
@@ -49,7 +49,7 @@ ${menu.search}
 
 *POWERD BY 𝐐𝐔𝐄𝐄𝐍 𝐀𝐌𝐀𝐍𝐃𝐀 ⚜️*
 `
-await conn.sendMeassage(from,{image:{url:"https://i.postimg.cc/xq615zVM/photo-2024-08-24-11-54-23.jpg"}},{quoted:mek}) 
+await conn.sendMeassage(from,{image:{url:"https://i.postimg.cc/xq615zVM/photo-2024-08-24-11-54-23.jpg"},caption:madeMenu},{quoted:mek}) 
 
 
 }
