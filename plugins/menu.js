@@ -22,8 +22,34 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
  }
 }
 
-let mademenu ``
-    
+let mademenu = ` 👋*HELLO ${pushname} WELCOME QUEEN AMANDA-MD*
+> ⚜️ *DOWNLOAD COMMANDS* 
+
+${menu.download}
+
+> ⚜️ *MAIN COMMANDS* 
+
+${menu.main}
+
+> ⚜️ *GROUPS COMMANDS*
+
+${menu.group}
+
+> ⚜️ *OWNER COMMANDS*
+
+${menu.owner}
+
+> ⚜️ *CONVERT COMMANDS*
+
+${menu.convert}
+
+> ⚜️ *SEARCH COMMANDS*
+
+${menu.search}
+
+*POWERD BY 𝐐𝐔𝐄𝐄𝐍 𝐀𝐌𝐀𝐍𝐃𝐀 ⚜️*
+`
+await conn.sendMeassage(from,{text:madeMenu},{quoted:mek}) 
 
 
 }
