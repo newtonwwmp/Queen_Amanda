@@ -39,6 +39,10 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
+//conect monodb
+const connectDB = require('./lib/mongodb')
+connectDB():
+//=============================================
 console.log("Connecting QUEEN-AMANDA MD 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
